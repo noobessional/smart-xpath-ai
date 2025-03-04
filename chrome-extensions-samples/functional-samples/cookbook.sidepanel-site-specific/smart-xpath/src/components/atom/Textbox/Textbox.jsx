@@ -6,7 +6,7 @@ export default function Textbox({ variant = 'textboxNormal', header, value }) {
   const variantClass = styles[variant] || styles.textboxNormal;
 
   // Add copy button for the paths
-  const showCopyButton = header === 'Full Path' || header === 'Simplified Path';
+  const showCopyButton = header === 'Full Path' || header === 'Simplified Path'|| header === 'Keyword for XPath';
 
   // Default values based on the screenshot
   const defaultValues = {

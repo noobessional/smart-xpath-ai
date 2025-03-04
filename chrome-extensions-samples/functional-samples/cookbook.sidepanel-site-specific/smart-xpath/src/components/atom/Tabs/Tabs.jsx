@@ -6,8 +6,8 @@ export default function Tabs() {
   return (
     <div className={styles.tabContainer}>
       <div className={styles.tabs}>
-        <Button variant="solid-small">Record Steps</Button>
-        <Button variant="ghost-small">Selector</Button>
+        <Button variant="ghost-small">Record Steps</Button>
+        <Button variant="solid-small">Selector</Button>
         <Button variant="ghost-small">History</Button>
       </div>
     </div>
